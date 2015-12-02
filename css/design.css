@@ -1,42 +1,5 @@
 <style type="text/css">
 
-.zentriert {
-	center;
-}
-#accountHinweis {
-	font size:2
-}
-
-#metabrand {
-	font face:"Arial,Helvetica" 
-	font size:10
-	color: cyan;
-		border:0;
-}
-
-h1 {
-    color: blue;
-    background-color: #fff0f0;
-	
-}
-
-BODY {
-	BGCOLOR:"#ffffff" 
-	TEXT:"#000000" 
-	LINK:"#0000a0" 
-	VLINK:"#0000a0" 
-	ALINK:"#0000a0"
-	}
-
-.ungeordneteListe {
-    color: blue;
-    background-color: #f0f0f0;
-}
-<!--
-A:link    {text-decoration: none}
-A:visited {text-decoration: none}
-A:active  {text-decoration: none}
--->
 
 html {
 	background: transparent!important
@@ -79,6 +42,14 @@ div {
 	width: 20em;
 	height: 10em;
 	background: #f1f3f4;
+}
+
+.heis {
+	border-left: 5px solid #c32e04;
+}
+.heis h2:before {
+	color: #c32e04;
+	content: 'Beachten: ';
 }
 
 .hinweis {

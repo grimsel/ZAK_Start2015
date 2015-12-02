@@ -4,36 +4,16 @@
 <HEAD>
 <TITLE>zak.bm-it.ch</TITLE>
 <meta charset="UTF-8" />
-<link href="design.css" type="text/css" rel="stylesheet">
-<!-- <script>
-var testElement = document.getElementById('testelement');
-testElement.addEventListener("click",hello,false);
-    
-function hello () { 
-    testElement.textContent = "Hello World!"; 
-}
-
-var listeEindruecke = document.getElementById('ListeEindruck');
-listeEindruecke.addEventListener("click", betonen, false);
-
-function betonen() { 
-    ListeEindruck.textContent = "Hello World!"; 
-}
-
-</script>
+<link href="css/design.css" type="text/css" rel="stylesheet">
 
 <script>
-var testElement = document.getElementById('testelement');
-var brand1Element = document.getElementById('brand1');
-var Wort="Huber";
-var LocalURL = document.URL;
-alert('Hallo Welt');
-document.write(Wort);
-document.write(testElement);
-alert(LocalURL);
-alert(brand1Element.textContent);
--->
-<script>
+var elem =  document.getElementById("unentschlossen");
+elem.textContent = "Hello World!"; 
+elem.addEventListener("click",hello,false);
+
+function hello(wie) { 
+    elem.textContent = "Hello World!"; 
+	}
 function ändereKlasse(wie) {
 	var elem = document.getElementById("unentschlossen");
 	elem.className = wie;
@@ -43,22 +23,10 @@ function ändereKlasse(wie) {
 </HEAD>
 
 <BODY>
-<p id="testelement">Klick mich!</p>
-<h1>Entdecken Sie die Umgebung Rütihof</h1>
-<p> Ein paar Eindrücke aus der Umgebung Rütihof. </p>
-<ul class="ungeordneteListe" id="ListeEindruck">
-	<li> Waldlehrpfad </li>
-	<li> Sitzbänklein</li>
-	<li>Hausdurchgänge</li>
-</ul>
-<h2>Fussdistanz 15 Minuten</h2>
-Da gäbe es zum einen Mal den Coop
-<h1>Bilder nach Mass</h1>
-
-
-<h1>Beispiel: getElementById</h1>
 <main id="main" role="main">
+
 	<h2>Wie soll ich aussehen?</h2>
+	<button onclick="hello('heis');">Klinweis</button>
 	<button onclick="ändereKlasse('hinweis');">Hinweis</button>
 	<button onclick="ändereKlasse('empfehlung');">Empfehlung</button>
 	<button onclick="ändereKlasse('aside');">noch mal anders</button>
@@ -66,33 +34,13 @@ Da gäbe es zum einen Mal den Coop
 		<h2>Überschrift</h2>
 		<p>Dieser div-Container wird individuell gestaltet</p>
 	</div>
+	<div id="testelement">
+		<h2>Übershrift</h2>
+		<p>Diese div-Container wird individuell gestaltet</p>
+	</div>
 </main>
-<script>
-	function ändereKlasse(wie) {
-		var elem = document.getElementById("unentschlossen");
-		elem.className = wie;
-	}
-
-</script>
 
 
-
-<!-- Please remove the following lines and add your own content -->
-<div class="zentriert">
-	<br><br><br><br><br><br><br><br><br>
-	<p id="metabrand">
-		<a href="http://www.metanet.ch" target="_blank"><img id="brand1" src="http://support.metanet.ch/futsite.gif" alt="Metabrand" width=437 height=124 > 
-		Bildbeschrieb under construction...
-		</a>
-	</p>
-	<p>
-	<span id="accountHinweis">
-	<b>MyAccount: zak.bm-it.ch</b>
-	</span>
-	<br>
-	<img src="roselo.jpg" alt="Rose" width=200 height=200 >
-	<!-- </center> -->
-</div>
 </BODY>
 
 </HTML>

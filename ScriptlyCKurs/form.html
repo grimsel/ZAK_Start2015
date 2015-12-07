@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Formular</title>
+
+    <meta charset="ISO-8859-1">
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <meta name="keywords" content="" />
+    <meta name="generator" content="Webocton - Scriptly (www.scriptly.de)" />
+
+    <link href="styles/style.css" type="text/css" rel="stylesheet" />
+</head>
+
+<body>
+<h1>Das Formular</h1>
+
+<label for="nachname">Ihr Nachname:</label>
+<input type="text"  value="Geben Sie hier Ihren Nachnamen ein" name="nachname" id="nachname" value="" size="20" maxlength="50"/>
+<br />
+<label for="gebi">Ihr Geburtstag:</label>
+<input type="date" value="" name="gebi" id="Geburtstag"/>
+<form name="Umfrage" action="rien.html" method="get" enctype="text/html">
+<input type="submit" value="Senden"/>
+
+<select name="untergliedertes_menu" size="12">
+    <optgroup label="HTML lernen">
+        <option value="html-aufbau">Aufbau HTML-Befehl</option>
+        <option value="html-befehle">HTML-TAGs</option>
+        <option value="html-attribute">Attribute</option>
+    </optgroup>
+
+    <optgroup label="CSS lernen">
+        <option value="css-aufbau">Aufbau CSS-Befehl</option>
+        <option value="css-befehle">wichtigsten CSS-Befehl</option>
+    </optgroup>
+
+    <optgroup label="JavaScript">
+        <option value="js-aufbau">Aufbau JS-Befehl</option>
+        <option value="js-aufruf">Aufruf</option>
+        <option value="js-test">Testen</option>
+        <option value="js-absichern">Absichern</option>
+    </optgroup>
+</select>
+
+</form>
+
+</body>
+</html>

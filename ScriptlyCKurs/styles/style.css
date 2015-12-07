@@ -1,0 +1,19 @@
+h2 {
+    color:orange;
+}
+h3 {
+    color:fuchsia;
+}
+h4 {
+    color:darkgoldenrod;
+    background-color: yellow;    
+}
+#rahmen1 {
+    border-color: green;
+    border-width: 5px;
+    border-style: solid;
+}
+
+.txtmark_yellow {
+background-color: yellow;
+}

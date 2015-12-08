@@ -1,0 +1,39 @@
+html, body {
+    height:100%;
+}
+* {
+    /* Weisse Streifen zwischen den Bereichen aussschalten   */    
+    margin:0;
+    padding: 0;
+}
+
+#fusslosbereich {
+    min-height:100%;
+}
+
+#kopfbereich {
+    background-color: #4F81BD    
+}
+#steuerungsbereich {
+    background-color: #FF650F
+}
+#inhaltsbereich {
+    background-color: #9BBB59
+}
+    #inhaltsbereich h2 {
+    padding-bottom: 0.5em;
+}
+#inhaltsbereich p {
+    padding-bottom: 1em;
+}
+#fussbereich {
+    background-color: #7F7F7F;
+    height:1.5em;
+    margin-top:-1.5em;
+}
+.bereichbeschrieb { 
+    font-family: Tahoma;
+    font-style: oblique;
+    color: #FFFFFF;
+}
+    

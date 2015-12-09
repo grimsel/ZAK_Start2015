@@ -31,7 +31,9 @@ padding-bottom: 0.5em;
 }
 #wrapper{       
     background-color: #FF0000;
+    background-image: url(unechter-spalten-hintergrund.png);
     width: 650px;
+
 }
 #fussbereich {
     background-color: #7F7F7F;

@@ -15,12 +15,13 @@ html, body {
     background-color: #4F81BD    
 }
 #steuerungsbereich {
-    background-color: #FF650F;
+    /* background-color: #FF650F; */
     width: 14em;
     float: left;
 }
 #inhaltsbereich {
     margin-left: 16em;
+    width: 300px'';
 }
 #inhaltsbereich h2 {
 padding-bottom: 0.5em;

@@ -20,11 +20,11 @@ html, body {
     float: left;
 }
 #inhaltsbereich {
-    background-color: #9BBB59;
     margin-left: 16em;
 }
 #inhaltsbereich h2 {
 padding-bottom: 0.5em;
+color: #7F7F7F;
 }
 #inhaltsbereich p {
     padding-bottom: 1em;

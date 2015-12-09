@@ -30,6 +30,10 @@ padding-bottom: 0.5em;
 #inhaltsbereich p {
     padding-bottom: 1em;
 }
+#wrapper{       
+    background-color: #FF0000;
+    width: 651px;
+}
 #fussbereich {
     background-color: #7F7F7F;
     height:1.5em;

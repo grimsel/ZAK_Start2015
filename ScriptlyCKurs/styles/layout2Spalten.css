@@ -17,12 +17,15 @@ html, body {
 #steuerungsbereich {
     background-color: #FF650F;
     width: 150px;
+    float: left;
 }
 #inhaltsbereich {
-    background-color: #9BBB59
+    background-color: #9BBB59;
+    margin-right: 200px;
+    width: 300px;
 }
-    #inhaltsbereich h2 {
-    padding-bottom: 0.5em;
+#inhaltsbereich h2 {
+padding-bottom: 0.5em;
 }
 #inhaltsbereich p {
     padding-bottom: 1em;

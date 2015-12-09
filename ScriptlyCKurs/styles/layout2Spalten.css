@@ -32,6 +32,7 @@ color: #7F7F7F;
 #wrapper{       
     background-color: #FF0000;
     background-image: url(../images/unechter-spalten-hintergrund.png);
+    background-repeat: repeat-y;
     width: 650px;
 
 }
